@@ -40,6 +40,8 @@ Run the program to see the circle! It is also possible to change the size of the
 
 ## Examples
 ### Circles
+<a href="https://trinket.io/python/98b4b91a06" target="_blank">trinket</a>
+
 ```python
 from turtle import *
 
@@ -57,6 +59,8 @@ for x in range(36):
 ```
 
 ### Twisty lines
+<a href="https://trinket.io/python/3df93782bd" target="_blank">trinket</a>
+
 ```python
 from turtle import *
 
@@ -84,6 +88,8 @@ for i in range(90):
 ```
 
 ### Spiderman vortex
+<a href="https://trinket.io/python/e5725f1c2b" target="_blank">trinket</a>
+
 ```python
 from turtle import *
 
@@ -111,6 +117,8 @@ for x in range(500):
 ```
 
 ### Gradient color
+<a href="https://trinket.io/python/d6227e0777" target="_blank">trinket</a>
+
 ```python
 from turtle import *
 
@@ -143,6 +151,8 @@ for x in range(255):
 ```
 
 ### Random dots
+<a href="https://trinket.io/python/3225ff9f56" target="_blank">trinket</a>
+
 ```python
 # Import turtle AND randint
 from turtle import *
@@ -176,6 +186,8 @@ for x in range(10):
 ```
 
 ### Color cycle spiral
+<a href="https://trinket.io/python/9626056cd8" target="_blank">trinket</a>
+
 ```python
 # Import turtle AND math
 from turtle import *

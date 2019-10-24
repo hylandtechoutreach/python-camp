@@ -40,7 +40,7 @@ These commands get the screen and set its background color to black. Run the pro
 #### Challenge: Change the colors
 Update the code so that instead of green and black, the turtle and the background have different colors. For example, the turtle could be blue, and the background could be pink!
 
-#### Allow the user to decide the color
+#### OPTIONAL: Allow the user to decide the color
 Instead of using only one static color, use `input` to ask the user which color to use for the turtle. Replace the static color with the color the user enters.
 ```python
 turtle_color = input("Enter a color for the turtle:")
@@ -87,7 +87,7 @@ So, the turtle moves `50` pixels to the right, turns `90` degrees to face down, 
 #### Challenge: Make the square bigger
 Currently, the square will be `50` pixels tall and `50` pixels wide. Try to change some of the numbers so that instead, the square is `100` pixels tall and `100` pixels wide!
 
-#### Allow the user to decide the size
+#### OPTIONAL: Allow the user to decide the size
 Instead of using only one static size, use `input` to ask the user which size to use for the square. Replace the static size with the size the user enters.
 ```python
 square_size = input("Enter a size for the square:")
@@ -197,28 +197,17 @@ for x in range(3):
 
 With the use of loops, the file is much shorter, and easier to maintain. Loops are one of the most important parts of programming!
 
-## Turtle speed
-There is a command that will change the speed of a turtle. In the `main.py` file, _above_ the commands that make the turtle move, add the following command:
-```python
-koopa.speed(8)
-```
-
-Run the program to see the speed change!
-
-### Dynamic speed
-Instead of using a static value for speed, ask the user if they want to go fast! If the user says `"yes"`, set the speed to `10`. If they say anything else, set the speed to `2`.
-
-Use `input` to ask the user the question. Then, use an `if`/`else` to check the value the user entered.
-
 ## Pen fills
-There is a command that will make the pen drawing fill with the color of the turtle (like a paint bucket tool). In the `main.py` file, add the following commands:
+There is a command that will make the pen drawing fill with the color of the turtle (like a paint bucket tool). In the `main.py` file, add the following commands around the drawing commands:
 ```python
 koopa.begin_fill()
-koopa.circle(80)
+
+# ... drawing code ...
+
 koopa.end_fill()
 ```
 
-This will fill in the circle the turtle draws! It can be used with any shape by running the `begin_fill` command before drawing and the `end_fill` command after.
+This will fill in the shape the turtle draws! It can be used with any shape by running the `begin_fill` command before drawing and the `end_fill` command after.
 
 ### More colors
 Although there are many built-in colors, sometimes it is necessary to find a very specific color. In addition to using color names (like "red", "orange", etc), turtles can take color values in RGB format! The [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model) is an additive color model in which red, green and blue light are added together in various ways to reproduce a broad array of colors. Basically, it is possible to create any digital color with a combination of red, green, and blue!
@@ -244,3 +233,56 @@ koopa.color(92, 144, 66)
 ```
 
 This will set the color of the turtle to a dark green. The RGB method allows for much more specific colors, so developers can use precisely the color they need!
+
+## Turtle speed
+There is a command that will change the speed of a turtle. In the `main.py` file, _above_ the commands that make the turtle move, add the following command:
+```python
+koopa.speed(8)
+```
+
+Run the program to see the speed change!
+
+### Dynamic speed
+Instead of using a static value for speed, ask the user if they want to go fast! If the user says `"yes"`, set the speed to `10`. If they say anything else, set the speed to `2`.
+
+Use `input` to ask the user the question. Then, use an `if`/`else` to check the value the user entered.
+
+## Final Code
+```python
+from turtle import *
+
+koopa = Turtle()
+koopa.shape("turtle")
+
+go_fast = input("Do you want to go fast?")
+if go_fast == "yes":
+  koopa.speed(10)
+else:
+  koopa.speed(2)
+
+koopa.color("green")
+
+paper = koopa.getscreen()
+paper.bgcolor("black")
+
+koopa.begin_fill()
+
+for x in range(4):
+  koopa.forward(100)
+  koopa.right(90)
+  
+koopa.end_fill()
+  
+shelly = Turtle()
+shelly.shape("turtle")
+shelly.color("white")
+
+shelly.penup()
+shelly.setpos(50, 100)
+shelly.pendown()
+
+shelly.right(60)
+for x in range(3):
+  shelly.forward(100)
+  shelly.right(120)
+```

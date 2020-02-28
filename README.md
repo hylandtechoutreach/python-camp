@@ -8,34 +8,34 @@ The material in this workshop is adaptable to several different timing options.
 
 | Activity | Time |
 |-|-|
-| Turtle Code-Along (no optional sections) | 35m |
-| Turtle Challenges | 10m |
+| [Turtle Follow-Along](TurtleFollowAlong.md) (no optional sections) | 35m |
+| [Turtle Challenges](https://bit.ly/PyChallenges) | 10m |
 
 ### 60 Minutes
 
 | Activity | Time |
 |-|-|
-| Turtle Code-Along (selected optional sections) | 45m |
-| Turtle Challenges | 15m |
+| [Turtle Follow-Along](TurtleFollowAlong.md) (selected optional sections) | 45m |
+| [Turtle Challenges](https://bit.ly/PyChallenges) | 15m |
 
 ### 1.5 Hours
 
 | Activity | Time |
 |-|-|
 | Icebreaker | 10m |
-| Turtle Code-Along (selected optional sections) | 45m |
-| Turtle Challenges | 35m |
+| [Turtle Follow-Along](TurtleFollowAlong.md) (selected optional sections) | 45m |
+| [Turtle Challenges](https://bit.ly/PyChallenges) | 35m |
 
 ### 2.5 Hours
 
 | Activity | Time |
 |-|-|
 | Icebreaker | 10m |
-| Lecture | 20m |
-| Kahoot | 10m |
+| [Lecture](ProgrammingWithPython.pptx) | 20m |
+| [Kahoot](https://create.kahoot.it/share/programming-with-python-quiz/e467016f-1971-4e14-b247-7e5e0f87c00c) | 10m |
 | Break | 10m |
-| Turtle Code-Along (with optional sections) | 50m |
-| Turtle Challenges | 50m |
+| [Turtle Follow-Along](TurtleFollowAlong.md) (with optional sections) | 50m |
+| [Turtle Challenges](https://bit.ly/PyChallenges) | 50m |
 
 
 ## Icebreaker

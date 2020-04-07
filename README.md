@@ -1,6 +1,8 @@
 # Programming with Python Workshop
 This workshop introduces students to the [Python](https://www.python.org/) programming language through Turtle Graphics.
 
+The student material is available online at [bit.ly/python-camp](https://bit.ly/python-camp/).
+
 ## Possible Durations
 The material in this workshop is adaptable to several different timing options.
 

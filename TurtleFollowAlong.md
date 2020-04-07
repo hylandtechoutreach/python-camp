@@ -308,4 +308,4 @@ for x in range(3):
 ```
 
 ## Additional Challenges
-Go to [bit.ly/PyChallenges](https://bit.ly/PyChallenges) (case-sensitive) to see the additional challenges, along with some examples!
+Check out the [Turtle Challenges](TurtleChallenges.md) to see some practice problems and examples!

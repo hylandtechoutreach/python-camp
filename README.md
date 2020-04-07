@@ -44,11 +44,38 @@ For a two-and-a-half-hour workshop, start with an icebreaker. After that, presen
 | [Turtle Follow-Along](TurtleFollowAlong.md) (with optional sections) | 50m |
 | [Turtle Challenges](https://bit.ly/PyChallenges) | 50m |
 
+## Virtual Camp: 1.5 Hours
+In the event of a global pandemic, it may be necessary to facilitate this workshop virtually.
+
+1. Start with a short interactive icebreaker.
+1. Then, move onto the lecture. Use the [Virtual Version](ProgrammingWithPythonVirtual.pptx) of the presentation. Make sure to keep it interactive - ask the students questions, and try to keep everyone involved as much as possible.
+1. After the lecture, do the [Kahoot](https://create.kahoot.it/share/programming-with-python-quiz/e467016f-1971-4e14-b247-7e5e0f87c00c).
+1. An actual follow-along activity will be difficult. The students may only have a small laptop/chromebook screen, so it may be a challenge for them to watch the instructor and also write their own code at the same time. Go over the basic turtle intro of the [follow-along](TurtleFollowAlong.md) without the students following along.
+1. After introducing the follow-along, let the students try to complete it on their own. They can then move on to the challenges.
+
+### Suggested Schedule
+
+| Activity | Time |
+|-|-|
+| Icebreaker | 10m |
+| Lecture | 20m |
+| Kahoot | 10m |
+| Follow-Along Intro | 10m |
+| Self-paced Work (Follow-Along + Challenges) | 40m |
 
 ## Icebreaker
 The icebreaker activity is built into the [ProgrammingWithPython.pptx](ProgrammingWithPython.pptx) presentation. Students will think of questions, and other students will have to answer them.
 
 Optionally, instead of the PowerPoint icebreaker, choose a different icebreaker for the group. Or, depending on the situation, do not do an icebreaker activity.
+
+### Virtual Icebreaker
+Doing an icebreaker virtually can be difficult, but it is not impossible. The purpose of the icebreaker is to welcome students into the "classroom" and make them feel comfortable. They can also get to know each other through the activity. It should be interactive, and every student should have a chance to participate. Here are some ideas for virtual icebreakers:
+
+- Have each student submit a question in the Zoom chat. Enter the questions in [this Python trinket](https://trinket.io/python/372d404f0f?outputOnly=true&runOption=run) to play a game where each student gets a random question from the list of questions.
+    - For the trinket, make sure to expand the window and zoom in appropriately so everyone can see the text.
+- Create a Zoom whiteboard and allow students to draw on it for a while.
+- Use [jigsawpuzzles.io](https://jigsawpuzzles.io/) to create a virtual puzzle, and let the students complete it as a group.
+- Use [gartic.io](https://gartic.io/) to play virtual pictionary as a group.
 
 ## Lecture
 The lecture introduces Python using the [Programming With Python](ProgrammingWithPython.pptx) presentation. Students will follow along with the lecture using [trinket](https://trinket.io). The lecture covers:

@@ -62,8 +62,8 @@ In the event of a global pandemic, it may be necessary to facilitate this worksh
 | Icebreaker | 10m |
 | Lecture | 20m |
 | Kahoot | 10m |
-| Follow-Along Intro | 10m |
-| Self-paced Work (Follow-Along + Challenges) | 40m |
+| Follow-Along | 40m |
+| Challenges | 10m |
 
 ## Icebreaker
 The icebreaker activity is built into the [ProgrammingWithPython.pptx](ProgrammingWithPython.pptx) presentation. Students will think of questions, and other students will have to answer them.

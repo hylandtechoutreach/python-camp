@@ -52,8 +52,8 @@ In the event of a global pandemic, it may be necessary to facilitate this worksh
 1. Start with a short interactive icebreaker.
 1. Then, move onto the lecture. Use the [Virtual Version](ProgrammingWithPythonVirtual.pptx) of the presentation. Make sure to keep it interactive - ask the students questions, and try to keep everyone involved as much as possible.
 1. After the lecture, do the [Kahoot](https://create.kahoot.it/share/programming-with-python-quiz/e467016f-1971-4e14-b247-7e5e0f87c00c).
-1. An actual follow-along activity will be difficult. The students may only have a small laptop/chromebook screen, so it may be a challenge for them to watch the instructor and also write their own code at the same time. Go over the basic turtle intro of the [follow-along](TurtleFollowAlong.md) without the students following along.
-1. After introducing the follow-along, let the students try to complete it on their own. They can then move on to the challenges.
+1. An actual follow-along activity will be difficult. The students may only have a small laptop/chromebook screen, so it may be a challenge for them to watch the instructor and also write their own code at the same time. It should be possible to go through the [follow-along](TurtleFollowAlong.md) with the students, but it may not go smoothly.
+1. After the follow-along, the students can move on to the challenges.
 
 ### Suggested Schedule
 

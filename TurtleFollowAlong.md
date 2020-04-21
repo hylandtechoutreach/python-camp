@@ -6,6 +6,8 @@ In this activity, write a **Python** application and play around with some two-d
 ## Python Introduction
 >Note: Skip this section if the lecture already introduced Python
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o9VO1g1S64U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Python is a popular programming language used by developers all over the world. It is a _general-purpose_ language, which means that developers can use it to write **scripts** that do almost anything: create websites, analyze large data sets, control robots, design video games... the list goes on and on!
 
 ### trinket

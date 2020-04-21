@@ -30,6 +30,9 @@ When a developer "runs" their program, they are telling the computer to execute 
 Update the simple "Hello World" program so that instead of saying "Hello World" it says something else!
 
 ## Python Library - Turtle Graphics Introduction
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ltFJoths2po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Python has a multitude of **libraries** that allow developers to use pre-existing code to build their own applications. One such library is for [turtle graphics](https://en.wikipedia.org/wiki/Turtle_graphics), which are vector graphics that use a cursor (or "turtle") to create images on a Cartesian plane.
 
 ### First Turtle Program
@@ -76,6 +79,9 @@ koopa.color(turtle_color)
 Comment out this code after making sure it works; otherwise it would prompt every time the program runs, which could slow things down.
 
 ## Turtle Graphics - Moving the Turtle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_2v6igbsblU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 One of the most useful turtle abilities is the ability to move across the screen and draw like a pen! Create a blank line in the `main.py` file, and then add the following command on the next line:
 ```python
 koopa.forward(50)
@@ -116,6 +122,9 @@ Add code to tell the turtle to complete the square! Use the same commands, `forw
 Currently, the square will be `50` pixels tall and `50` pixels wide. Try to change some of the numbers so that instead, the square is `100` pixels tall and `100` pixels wide!
 
 ## Turtle Graphics - Multiple Turtles
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mJqI-00DVRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 So far, the program has used one sole turtle to carry out all of the commands. However, it is also possible to create more than one turtle, and each turtle can do different things! Let's create a new turtle, and have it draw a **triangle**!
 
 ### Creating the Turtle
@@ -181,6 +190,9 @@ This way, Shelly will pick up the pen when moving to the starting point, and the
 Instead of starting Shelly at a position of `(-100, 100)`, move the starting point to be directly above the square!
 
 ## Loops
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZrZOVXtvNAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Loops are a very powerful programming tool. They allow developers to repeat blocks of code automatically, without having to write the commands over and over again. One of the major benefits is that if the developer needs to change something, they only have to change it in one place!
 
 In the turtle code, there are a couple of blocks of code that could be improved with loops. Where do those repetitive commands occur?
@@ -218,6 +230,10 @@ Now, it is simpler to change the size of the square. Update the forward `50` so 
 Apply the same looping technique for Shelly and the triangle. Replace the repeated lines of code with a new loop! It should look a lot like the `for` loop for the square, but it should repeat a different number of times, and the angle should be different as well.
 
 With the use of loops, the file is much shorter, and easier to maintain. Loops are one of the most important parts of programming!
+
+## Conclusion
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nPGP-Fk0I1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## OPTIONAL: Pen Fills
 There is a command that will make the pen drawing fill with the color of the turtle (like a paint bucket tool). In the `main.py` file, add the following commands around the drawing commands:

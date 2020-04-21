@@ -50,8 +50,8 @@ For a two-and-a-half-hour workshop, start with an icebreaker. After that, presen
 In the event of a global pandemic, it may be necessary to facilitate this workshop virtually.
 
 1. Start with a short interactive icebreaker.
-1. Then, move onto the lecture. Use the [Virtual Version](ProgrammingWithPythonVirtual.pptx) of the presentation. Make sure to keep it interactive - ask the students questions, and try to keep everyone involved as much as possible.
-1. After the lecture, do the [Kahoot](https://create.kahoot.it/share/programming-with-python-quiz/e467016f-1971-4e14-b247-7e5e0f87c00c).
+1. Then, move onto the lecture. Use the [Virtual Version](ProgrammingWithPythonVirtual.pptx) of the presentation. Make sure to keep it interactive - ask the students questions, and try to keep everyone involved as much as possible. The lecture does not include material about conditional statements.
+1. After the lecture, do the [Kahoot](https://create.kahoot.it/share/duplicate-of-programming-with-python-quiz/d3389274-eb94-4f64-8716-b48b307d6cd8). Note that this Kahoot is different than the normal Kahoot; it does not include material about conditional statements.
 1. An actual follow-along activity will be difficult. The students may only have a small laptop/chromebook screen, so it may be a challenge for them to watch the instructor and also write their own code at the same time. It should be possible to go through the [follow-along](TurtleFollowAlong.md) with the students, but it may not go smoothly.
 1. After the follow-along, the students can move on to the challenges.
 

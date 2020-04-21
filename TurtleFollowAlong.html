@@ -212,6 +212,8 @@
 <h4 id="challenge-change-the-message">Challenge: Change the Message</h4>
 <p>Update the simple &quot;Hello World&quot; program so that instead of saying &quot;Hello World&quot; it says something else!</p>
 <h2 id="python-library---turtle-graphics-introduction">Python Library - Turtle Graphics Introduction</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ltFJoths2po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p>Python has a multitude of <strong>libraries</strong> that allow developers to use pre-existing code to build their own applications. One such library is for <a href="https://en.wikipedia.org/wiki/Turtle_graphics" target="_blank">turtle graphics</a>, which are vector graphics that use a cursor (or &quot;turtle&quot;) to create images on a Cartesian plane.</p>
 <h3 id="first-turtle-program">First Turtle Program</h3>
 <p>Remove any code from the <code>main.py</code> file so it is totally blank. Then, on the first line of the file, add the following command:  </p>
@@ -242,6 +244,8 @@ koopa.color(turtle_color)
 </code></pre>
 <p>Comment out this code after making sure it works; otherwise it would prompt every time the program runs, which could slow things down.</p>
 <h2 id="turtle-graphics---moving-the-turtle">Turtle Graphics - Moving the Turtle</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_2v6igbsblU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p>One of the most useful turtle abilities is the ability to move across the screen and draw like a pen! Create a blank line in the <code>main.py</code> file, and then add the following command on the next line:</p>
 <pre><code class="lang-python">koopa.forward(<span class="hljs-number">50</span>)
 </code></pre>
@@ -270,6 +274,8 @@ koopa.right(<span class="hljs-number">90</span>)
 <h4 id="optional-challenge-make-the-square-bigger">OPTIONAL Challenge: Make the square bigger</h4>
 <p>Currently, the square will be <code>50</code> pixels tall and <code>50</code> pixels wide. Try to change some of the numbers so that instead, the square is <code>100</code> pixels tall and <code>100</code> pixels wide!</p>
 <h2 id="turtle-graphics---multiple-turtles">Turtle Graphics - Multiple Turtles</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mJqI-00DVRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p>So far, the program has used one sole turtle to carry out all of the commands. However, it is also possible to create more than one turtle, and each turtle can do different things! Let&apos;s create a new turtle, and have it draw a <strong>triangle</strong>!</p>
 <h3 id="creating-the-turtle">Creating the Turtle</h3>
 <p>Creating the <em>new</em> turtle will be very similar to creating the original turtle. The only difference will be the name of the turtle (turtles are not allowed to have the same name in Python). Copy the commands used to create the <code>koopa</code> turtle, and update them to create a turtle named <code>shelly</code>. Add the following commands at the bottom of the <code>main.py</code> file:</p>
@@ -315,6 +321,8 @@ shelly.right(<span class="hljs-number">120</span>)
 <h4 id="challenge-new-starting-point">Challenge: New Starting Point</h4>
 <p>Instead of starting Shelly at a position of <code>(-100, 100)</code>, move the starting point to be directly above the square!</p>
 <h2 id="loops">Loops</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZrZOVXtvNAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p>Loops are a very powerful programming tool. They allow developers to repeat blocks of code automatically, without having to write the commands over and over again. One of the major benefits is that if the developer needs to change something, they only have to change it in one place!</p>
 <p>In the turtle code, there are a couple of blocks of code that could be improved with loops. Where do those repetitive commands occur?</p>
 <h3 id="drawing-the-square">Drawing the Square</h3>
@@ -341,6 +349,9 @@ koopa.right(<span class="hljs-number">90</span>)
 <h4 id="challenge-looping-the-triangle">Challenge: Looping the Triangle</h4>
 <p>Apply the same looping technique for Shelly and the triangle. Replace the repeated lines of code with a new loop! It should look a lot like the <code>for</code> loop for the square, but it should repeat a different number of times, and the angle should be different as well.</p>
 <p>With the use of loops, the file is much shorter, and easier to maintain. Loops are one of the most important parts of programming!</p>
+<h2 id="conclusion">Conclusion</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nPGP-Fk0I1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h2 id="optional-pen-fills">OPTIONAL: Pen Fills</h2>
 <p>There is a command that will make the pen drawing fill with the color of the turtle (like a paint bucket tool). In the <code>main.py</code> file, add the following commands around the drawing commands:</p>
 <pre><code class="lang-python">koopa.begin_fill()
@@ -459,7 +470,7 @@ shelly.right(<span class="hljs-number">60</span>)
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Turtle Follow-Along","level":"1.2","depth":1,"next":{"title":"Turtle Challenges","level":"1.3","depth":1,"path":"TurtleChallenges.md","ref":"TurtleChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"BOOKREADME.md","ref":"BOOKREADME.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"BOOKREADME.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"TurtleFollowAlong.md","mtime":"2020-04-21T18:01:49.544Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-21T18:02:25.421Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Turtle Follow-Along","level":"1.2","depth":1,"next":{"title":"Turtle Challenges","level":"1.3","depth":1,"path":"TurtleChallenges.md","ref":"TurtleChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"BOOKREADME.md","ref":"BOOKREADME.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"BOOKREADME.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"TurtleFollowAlong.md","mtime":"2020-04-21T18:11:18.330Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-21T18:11:56.394Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

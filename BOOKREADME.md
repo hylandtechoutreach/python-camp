@@ -1,5 +1,5 @@
 # Python Camp
-Materials for a camp introducing the Python programming language using Turtle graphics.
+Welcome to the Python camp! See below for materials that introduce the Python programming language using Turtle graphics.
 
 - [Turtle Follow-Along](TurtleFollowAlong.md)
 - [Turtle Challenges](TurtleChallenges.md)
